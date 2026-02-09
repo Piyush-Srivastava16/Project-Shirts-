@@ -13,7 +13,9 @@ public class Shirt {
         this.price=price;
         this.size=size;
     }
+    
     public String toString (){
         return "Shirts [brand ="+brand+"\tcolor is "+color +"\tprice"+price+"\tSize is "+size+"]";
     }
 }
+
